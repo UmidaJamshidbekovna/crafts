@@ -1,0 +1,357 @@
+.main{
+    .header-site{
+        .container{
+            width: 1140px;
+            margin: 0 auto;
+            header{
+                display: flex;
+               .list{
+                ul{
+                    margin-left: 100px;
+                    display: flex;
+                    li{
+                        list-style: none;
+                        a{
+                            cursor: pointer;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 22px;
+                            text-align: right;
+                            letter-spacing: 0.10em;
+                            color: #000000;
+                            text-decoration: none;
+                            padding-right: 30px;
+                        }
+                    }
+                }
+                p{
+                    margin-right: 30px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 25px;
+                    letter-spacing: 0.15em;
+                    text-align: right;
+                    color: #9A9A9A;
+                }
+                h1{
+                    margin-right: 10px;
+                    font-family: Vollkorn;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 20px;
+                    line-height: 33px;
+                    letter-spacing: 0.3em;
+                    text-align: right;
+                    color: #000000;
+                }
+               }
+            }
+        }
+    }
+    .page1{
+        .artisans{
+            background: #FAFAFA;
+            .container{
+                width: 1140px;
+                margin: 0 auto;
+                h1{
+                    padding-top: 20px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 24px;
+                    letter-spacing: 0.10em;
+                    color: #242424;
+                    margin-bottom: 15px;
+                }
+                p{
+                    width: 1110px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 22px;
+                    /* or 167% */
+        
+                    text-transform: lowercase;
+        
+                    color: #161616;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+        .form-list{
+            .container{
+                width: 1140px;
+                margin: 0 auto;
+                display: flex;
+                p, label{
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: 0.15em;
+
+                    color: #242424;
+                }
+                label{
+                    margin-top: 15px;
+                    margin-left: 70px;
+                    padding-right: 20px;
+                }
+                input{
+                    margin-top: 15px;
+                    height: 18px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+    .blockList{
+        margin-bottom: 50px;
+        .box1{
+            display: flex;
+            .img{
+                img{
+                    position: absolute;
+                    border: 10px solid #fff;
+                    top: 500px;
+                    width: 350px;
+                    z-index: 3;
+                    border-radius: 50%;
+                }
+            }
+            .d-site{
+                .name{
+                    display: flex;
+                    h1{
+                        margin-top: 35px;
+                        margin-left: 400px;
+                        font-family: Vollkorn;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 25px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        letter-spacing: 0.1em;
+
+                        color: #242424;
+                    }
+                    
+                    p{
+                        cursor: pointer;
+                        padding-left: 100px;
+                        margin-top: 21px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: 0.15em;
+
+                        color: #242424;
+
+                        padding-top: 13px;
+                    }
+                } 
+                p{
+                    margin-left: 400px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 22px;
+                    letter-spacing: 0.15em;
+                    margin-top: 0;
+                    color: #828282;
+                    margin-bottom: 5px;
+                }
+                h2{
+                    margin-left: 400px;
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 24px;
+                    letter-spacing: 0.15em;
+
+                    color: #242424;
+
+                }
+                h5{
+                    margin-left: 400px;
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #161616;
+                    width: 900px;
+                }
+            }
+        }
+        .box2{
+            .crafts{
+                position: relative; 
+            }
+        }
+    }
+    .blockList1{
+        margin-bottom: 50px;
+        .box1{
+            display: flex;
+            .img{
+                img{
+                    position: absolute;
+                    border: 10px solid #fff;
+                    top: 1100px;
+                    width: 350px;
+                    z-index: 3;
+                    border-radius: 50%;
+                }
+            }
+            .d-site{
+                .name{
+                    display: flex;
+                    h1{
+                        margin-top: 35px;
+                        margin-left: 400px;
+                        font-family: Vollkorn;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 25px;
+                        line-height: 19px;
+                        /* identical to box height */
+
+                        letter-spacing: 0.1em;
+
+                        color: #242424;
+                    }
+                    
+                    p{
+                        cursor: pointer;
+                        padding-left: 100px;
+                        margin-top: 21px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: 0.15em;
+
+                        color: #242424;
+
+                        padding-top: 13px;
+                    }
+                } 
+                p{
+                    margin-left: 400px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 17px;
+                    line-height: 22px;
+                    letter-spacing: 0.15em;
+                    margin-top: 0;
+                    color: #828282;
+                    margin-bottom: 5px;
+                }
+                h2{
+                    margin-left: 400px;
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 24px;
+                    letter-spacing: 0.15em;
+
+                    color: #242424;
+
+                }
+                h5{
+                    margin-left: 400px;
+                    margin-top: 0;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #161616;
+                    width: 900px;
+                }
+            }
+        }
+        .box2{
+            .crafts{
+                position: relative; 
+            }
+        }
+    }
+    .end{
+       .inputBtn{
+           margin-left: 540px;
+        //    margin-bottom: 100px;
+            input{
+                margin-left: 0px; float: left;
+                margin-right: 0px;
+               margin-top: 80px;
+                width: 50px;
+                height: 40px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 600px;
+                font-size: 16px;
+                line-height: 16px;
+                margin-bottom: 100px;
+                color: #000000;
+            }
+           
+       }
+       img{
+           width: 1330px;
+           height: 128px;
+           overflow: hidden;
+       }
+       .endBtn{
+           margin-top: 100px;
+           margin-bottom: 100PX;
+          .container{
+              width: 1140px;
+              margin: 0 auto;
+                img{
+                width: 250px;
+                }
+                p{
+                text-align: start;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 40px;
+                letter-spacing: 0.15em;
+                
+                color: #0B0A0A;
+                }
+                hr{
+                    margin-left: 10px;
+                    width: 200px;
+                border: 1px solid #C8C8C8;
+                transform: rotate(90deg);            
+                }
+           
+          }
+       }
+    }
+}
+
+
